@@ -2,8 +2,8 @@
 %global project   felix
 %global bundle    org.apache.felix.scr.annotations
 Name:          felix-scr-annotations
-Version:       1.9.6
-Release:       3.6
+Version:       1.12.0
+Release:       1
 Summary:       Annotations for SCR
 Group:         Development/Java
 License:       ASL 2.0
@@ -34,7 +34,7 @@ Summary:       Javadoc for %{name}
 This package contains javadoc for %{name}.
 
 %prep
-%setup -q -n %{bundle}-%{version}
+%setup -q -n org.apache.felix.scr.annotations-1.12.0
 
 %build
 
